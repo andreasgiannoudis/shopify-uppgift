@@ -1,3 +1,96 @@
+.banner__box {
+  max-width: unset;
+  width: 500px;
+  margin-right: 750px;
+  margin-top: 120px;
+}
+.banner__box .banner__heading {
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 58px;
+  font-size: 48px;
+  font-weight: bolder;
+}
+.banner__box .banner__buttons {
+  background: #b71726;
+  cursor: pointer;
+  padding: 30 150 30 150px;
+}
+.banner__box .banner__buttons .button--primary {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolder;
+}
+.color-scheme-1 {
+  width: 100%;
+  justify-content: center;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding {
+  width: 70%;
+  margin-left: 15%;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box {
+  display: flex;
+  justify-content: space-around;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box1, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box2, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box3, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box4 {
+  border: 1px solid #ccc;
+  width: 250px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box1 a, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box2 a, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box3 a, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box4 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-size: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box1 a:hover, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box2 a:hover, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box3 a:hover, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box4 a:hover {
+  background-color: transparent !important;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box1::after, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box2::after, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box3::after, .color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box4::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box1 {
+  background: url("./bike02.jpg");
+  background-size: cover;
+  position: relative;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box2 {
+  background: url("./bike03.jpg");
+  background-size: cover;
+  position: relative;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box3 {
+  background: url("./bike04.jpg");
+  background-size: cover;
+  position: relative;
+}
+.color-scheme-1 .section-template--15371227693158__custom_liquid_CGYWrz-padding .box .box4 {
+  background: url("./bike05.jpg");
+  background-size: cover;
+  position: relative;
+}
+.animate--fade-in img {
+  background-position: center;
+  background-size: contain;
+}
 .footer {
   background-color: #303030;
 }

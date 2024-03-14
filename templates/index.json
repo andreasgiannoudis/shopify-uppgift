@@ -1,21 +1,28 @@
 {
   "sections": {
-    "image_banner": {
+    "image_banner_3E9tW7": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "heading_QWzCWa": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "Nytt År - Nya Möjligheter",
+            "heading_size": "h1"
           }
         },
-        "button": {
+        "text_X49yBd": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_9P79VN": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "Läs mer om Förmånscykel",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -23,20 +30,31 @@
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "heading_QWzCWa",
+        "text_X49yBd",
+        "buttons_9P79VN"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "image": "shopify:\/\/shop_images\/bike1.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_CGYWrz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"box\">\n  <div class=\"box1\"><a href=\"#\">REA CYKLAR<\/a><\/div>\n  <div class=\"box2\"><a href=\"#\">FÖRMÅNSCYKEL<\/a><\/div>\n  <div class=\"box3\"><a href=\"#\">SERVICE<\/a><\/div>\n  <div class=\"box4\"><a href=\"#\">STORLEKSGUIDE<\/a><\/div>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
@@ -66,10 +84,60 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "image_banner_dt6Ra4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Wke3Dn": {
+          "type": "heading",
+          "settings": {
+            "heading": "LEVERANTÖR TLL GÖTEBORGS STAD & FÖRMÅNSCYKLAR<a href=\"https:\/\/trekstoregbg.se\/formanscykel\/\">LÄS MER<\/a>",
+            "heading_size": "h1"
+          }
+        },
+        "text_fbrdLH": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_zifXwk": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "LÄS MER",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wke3Dn",
+        "text_fbrdLH",
+        "buttons_zifXwk"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/img06.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "image_banner_3E9tW7",
+    "custom_liquid_CGYWrz",
+    "featured_collection",
+    "image_banner_dt6Ra4"
   ]
 }

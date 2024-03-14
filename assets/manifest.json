@@ -1,4 +1,20 @@
 {
+  "resources/img/bike02.jpg": {
+    "file": "bike02.jpg",
+    "src": "resources/img/bike02.jpg"
+  },
+  "resources/img/bike03.jpg": {
+    "file": "bike03.jpg",
+    "src": "resources/img/bike03.jpg"
+  },
+  "resources/img/bike04.jpg": {
+    "file": "bike04.jpg",
+    "src": "resources/img/bike04.jpg"
+  },
+  "resources/img/bike05.jpg": {
+    "file": "bike05.jpg",
+    "src": "resources/img/bike05.jpg"
+  },
   "resources/js/app.js": {
     "file": "app.js",
     "isEntry": true,
