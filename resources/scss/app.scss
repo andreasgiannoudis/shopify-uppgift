@@ -1,8 +1,16 @@
+@import "./variables";
+@import "./home";
+@import "./header";
+@import "./footer";
+@import "./cart";
+@import "./checkout";
+@import "./product-list";
+@import "./product";
+
+
+
+
 body{
     margin:0;
-    background:red;
 }
 
-.gradient{
-    background-color: red;
-}
