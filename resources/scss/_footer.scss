@@ -1,0 +1,16 @@
+.footer{
+    background-color: $dark-color;
+    
+    .footer__blocks-wrapper{
+        &>*{
+            color: $white-color;
+        }
+        .footer-block{
+            h2.footer-block__heading{
+                color: $white-color;
+                text-transform: uppercase;
+            }
+        }
+        
+    }
+}
