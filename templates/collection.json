@@ -1,5 +1,74 @@
 {
   "sections": {
+    "rich_text_DpFAN3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QWNXky": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Mountainbike i Göteborg hittar du bäst hos Trek Bicycle Store!<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_xqfTUU": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Trek är världsledande inom Mountainbike teknologi.<\/strong><\/h4><p>Det är knappast en överraskning att <strong>mountainbikes från Trek<\/strong><br\/> är de mest avancerade cyklarna på marknaden. Här begränsas inte <br\/>innovationer till de dyraste cyklarna. Varje modell har flertalet <br\/>funktioner och detaljer som gör alla åkturer bättre, oavsett underlag.<\/p>"
+          }
+        },
+        "heading_dXRnbn": {
+          "type": "heading",
+          "settings": {
+            "heading": "MTB är byggda med variation i åtanke",
+            "heading_size": "h1"
+          }
+        },
+        "text_9Rh83V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MTB-cyklar är byggda för terrängcykling, äventyr, tävling eller bara för<br\/> att ha skoj. De kännetecknas av breda däck med dobbar som ger bättre <br\/>grepp i olika typer av terräng, men det finns också en mängd modeller <br\/>att välja mellan. Hardtail eller heldämpad? 29 eller 27,5 tum? Aluminium<br\/> eller kolfiber? Att hitta rätt cykel, från dämpning till ramdesign, <br\/>beror på hur du cyklar och vilken typ av cykling som du föredrar.<\/p>"
+          }
+        },
+        "heading_eCHmcW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trek MTB är ett bra val med sin mångsidighet",
+            "heading_size": "h1"
+          }
+        },
+        "text_g7aM6J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Det flesta typer av MTB-cyklar är designade för att vara mångsidiga och <br\/>fungera effektivt i många olika typer av terräng. Genom åren har sporten<br\/> utvecklats mot olika discipliner\/åkstilar och att bestämma vad som är <br\/>rätt för dig är det första steget mot att välja den bästa cykeln.<\/p>"
+          }
+        },
+        "caption_awzATJ": {
+          "type": "caption",
+          "settings": {
+            "caption": "Välkommen in till vår cykelbutik i Göteborg och testa cyklarna.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QWNXky",
+        "text_xqfTUU",
+        "heading_dXRnbn",
+        "text_9Rh83V",
+        "heading_eCHmcW",
+        "text_g7aM6J",
+        "caption_awzATJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -19,7 +88,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
@@ -30,6 +99,7 @@
     }
   },
   "order": [
+    "rich_text_DpFAN3",
     "banner",
     "product-grid"
   ]
