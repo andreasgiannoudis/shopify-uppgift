@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
 .banner__box {
   max-width: unset;
   width: 500px;
@@ -102,6 +117,21 @@
   color: #fff;
   text-transform: uppercase;
 }
+.footer .footer__blocks-wrapper .footer-block .footer-block__details-content {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+.footer .footer__blocks-wrapper .footer-block .footer-block__details-content ul {
+  list-style: none;
+  text-decoration: none;
+  font-size: 12px;
+}
+.footer .footer__blocks-wrapper .footer-block .footer-block__details-content a {
+  color: hsla(0, 0%, 100%, 0.5);
+  text-decoration: none;
+  font-size: 12px;
+}
 body {
   margin: 0;
+  font-family: "Poppins-Regular";
+  font-weight: 400;
 }

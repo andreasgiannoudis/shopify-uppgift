@@ -1,4 +1,16 @@
 {
+  "resources/fonts/Montserrat-Bold.ttf": {
+    "file": "Montserrat-Bold.ttf",
+    "src": "resources/fonts/Montserrat-Bold.ttf"
+  },
+  "resources/fonts/Montserrat-Medium.ttf": {
+    "file": "Montserrat-Medium.ttf",
+    "src": "resources/fonts/Montserrat-Medium.ttf"
+  },
+  "resources/fonts/Montserrat-Regular.ttf": {
+    "file": "Montserrat-Regular.ttf",
+    "src": "resources/fonts/Montserrat-Regular.ttf"
+  },
   "resources/img/bike02.jpg": {
     "file": "bike02.jpg",
     "src": "resources/img/bike02.jpg"
