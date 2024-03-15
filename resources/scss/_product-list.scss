@@ -1,0 +1,61 @@
+.shopify-section{
+    .banner{
+        .banner__box{
+            background-color: transparent;
+        }
+    }
+
+
+    .product-grid-container{
+        .collection{
+            .card-wrapper{
+                padding-right: 20px;
+                .card{
+                    .card__information{
+                        .card__heading{
+                            color: #150504 !important;
+                            margin-bottom: 2px;
+                            font-weight: 700;
+                        }
+                        .price{
+                            color: #150504 !important;
+                            font-size: 12px !important;
+                            font-weight: 700;
+                        }
+
+                        
+                        
+                    }
+                    .quick-add{
+                            
+                        .quick-add__submit{
+                            background-color: $dark-color;
+                            color: #fff;
+                            font-size: 12px;
+                            font-weight: 400;
+                            &:hover{
+                                background-color: $hover-button-color;
+                                border: unset;
+                            }
+                        }
+                    
+                }
+                }
+            }
+        }
+    }
+
+    .facets {
+        .facets__form{
+            display: unset;
+            .product-count{
+                display: inline;
+                float: left;
+                .product-count__text{
+                    color:  rgba(21,5,4,.35) !important;
+                }
+            }
+        }
+    }
+    
+}

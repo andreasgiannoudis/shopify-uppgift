@@ -130,6 +130,42 @@
   text-decoration: none;
   font-size: 12px;
 }
+.shopify-section .banner .banner__box {
+  background-color: transparent;
+}
+.shopify-section .product-grid-container .collection .card-wrapper {
+  padding-right: 20px;
+}
+.shopify-section .product-grid-container .collection .card-wrapper .card .card__information .card__heading {
+  color: #150504 !important;
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+.shopify-section .product-grid-container .collection .card-wrapper .card .card__information .price {
+  color: #150504 !important;
+  font-size: 12px !important;
+  font-weight: 700;
+}
+.shopify-section .product-grid-container .collection .card-wrapper .card .quick-add .quick-add__submit {
+  background-color: #303030;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+.shopify-section .product-grid-container .collection .card-wrapper .card .quick-add .quick-add__submit:hover {
+  background-color: #00c77a;
+  border: unset;
+}
+.shopify-section .facets .facets__form {
+  display: unset;
+}
+.shopify-section .facets .facets__form .product-count {
+  display: inline;
+  float: left;
+}
+.shopify-section .facets .facets__form .product-count .product-count__text {
+  color: rgba(21, 5, 4, 0.35) !important;
+}
 body {
   margin: 0;
   font-family: "Poppins-Regular";
