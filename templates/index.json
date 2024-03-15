@@ -91,7 +91,7 @@
         "heading_Wke3Dn": {
           "type": "heading",
           "settings": {
-            "heading": "LEVERANTÖR TLL GÖTEBORGS STAD & FÖRMÅNSCYKLAR<a href=\"https:\/\/trekstoregbg.se\/formanscykel\/\">LÄS MER<\/a>",
+            "heading": "LEVERANTÖR TLL GÖTEBORGS STAD & FÖRMÅNSCYKLAR",
             "heading_size": "h1"
           }
         },
@@ -120,10 +120,10 @@
         "buttons_zifXwk"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/img06.jpg",
-        "image_overlay_opacity": 50,
+        "image": "shopify:\/\/shop_images\/Skarmbild_2024-03-15_201325.png",
+        "image_overlay_opacity": 60,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
@@ -132,12 +132,108 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_liquid_LKXNY6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collection_list_YqVBqL": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_3cHQUw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "racecyklar"
+          }
+        },
+        "featured_collection_gAPrd9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mountainbike"
+          }
+        },
+        "featured_collection_gcLHeK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hybrid"
+          }
+        },
+        "featured_collection_XyXbXQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fatbike"
+          }
+        },
+        "featured_collection_Gb7T8B": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "her-dam-cykel"
+          }
+        },
+        "featured_collection_xXq4Ty": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "junior"
+          }
+        },
+        "featured_collection_zhxcjM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lad-last-cyklar"
+          }
+        },
+        "featured_collection_ba9Bd8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "downhill"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_3cHQUw",
+        "featured_collection_gAPrd9",
+        "featured_collection_gcLHeK",
+        "featured_collection_XyXbXQ",
+        "featured_collection_Gb7T8B",
+        "featured_collection_xXq4Ty",
+        "featured_collection_zhxcjM",
+        "featured_collection_ba9Bd8"
+      ],
+      "settings": {
+        "title": "CYKELKATEGORIER",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_x9WMzJ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"box-text1\">\n            <div class=\"box1-1\">\n                <h3 class=\"texth3-1\">\n                    Cykelbutiken i Göteborg med kvalitet och känsla från Trek\n                <\/h3>\n                <p class=\"textp-1\">\n                    Välkommen till Trek Bicycle Store i Göteborg. För oss står\n                    Trek för kvalitet, känsla och kärlek till allt som har med\n                    cykling att göra. Därför är vi glada över att kunna erbjuda\n                    deras cyklar till våra kunder. I vår cykelaffär i Göteborg\n                    hittar du Sveriges största sortiment av Trekcyklar. Här\n                    finns ett stort utbud av\n                    <span><a href=\"#\">Mountainbikes (MTB)<\/a><\/span\n                    >, <span><a href=\"#\">racercyklar<\/a><\/span\n                    >, <span><a href=\"#\">elcyklar<\/a><\/span> och\n                    <span><a href=\"#\">hybrider<\/a><\/span\n                    >. Trek Bicycle föddes 1976 i Waterloo, Wisconsin, USA och\n                    är idag världsledande inom cykeldesign, med fokus på\n                    kvalitet. För dig med cykling som passion är vi det\n                    självklara valet. Mer om Trek kan du läsa här:\n                    <span><a href=\"#\">Trek Bikes<\/a><\/span>\n                <\/p>\n\n                <h3 class=\"texth3-2\">\n                    Trek Bicycle Store, en hjälpsam cykelbutik i Göteborg\n                <\/h3>\n                <p class=\"textp-2\">\n                    Har du frågor om utprovning, storlek eller inställningar av\n                    någon särskild cykel? Vi hjälper dig gärna med alla delar av\n                    köpet! Kom till vår cykelaffär i Göteborg eller kontakta oss\n                    på mail\n                    <span><a href=\"#\">butikkk@bikeplacee.se<\/a><\/span> eller\n                    telefon 031-12 61 30. Vi erbjuder Bikefit, provcykling och\n                    har även Demo MTB cyklar för lite tuffare tester. Vi vågar\n                    även skryta med en cykelverkstad i världsklass. Hos oss\n                    hittar du även en stor mängd tillbehör från Bontrager,\n                    Shimano och andra kända varumärken. Allt från hjälmar, skor,\n                    väskor, däck och hjul mm av bästa kvalitet. Du är självklart\n                    alltid välkommen in i vår cykelbutik för att prova ut din\n                    nya utrustning.\n                <\/p>\n\n                <h3 class=\"texth3-3\">\n                    Trek Bicycle Store, en hjälpsam cykelbutik i Göteborg\n                <\/h3>\n                <p class=\"textp-3\">\n                    Nytt för i år är att vi kommit igång ordentligt med vår\n                    försäljning på nätet. Vi jobbar hela tiden med vår hemsida\n                    för att se till att lagersaldot stämmer så hittar du en\n                    cykel som vi har i lager på vår hemsida kan du räkna med att\n                    det stämmer. Alla cyklar som vi säljer på nätet monterar vi\n                    först ordentligt för att sedan packas ner igen i en stor\n                    kartong, som kund får du en genomgången cykel och behöver\n                    endast montera pedaler och vrida styret – enkelt och\n                    smidigt. Vi skickar cyklar inom Sverige med DHL Home\n                    Delivery till en kostnad av 495 kr. När du väl valt din\n                    cykel och ev. tillbehör checkar du enkelt ut via Klarna och\n                    väljer själv hur du vill betala. Känner du dig osäker på\n                    storlek så hittar du vår storleksguide här:\n                    https:\/\/trekstoregbg.se\/storleksguide\/ annars finns vi\n                    såklart alltid tillgängliga på telefon eller mail.\n                <\/p>\n            <\/div>\n        <\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_banner_3E9tW7",
     "custom_liquid_CGYWrz",
     "featured_collection",
-    "image_banner_dt6Ra4"
+    "image_banner_dt6Ra4",
+    "custom_liquid_LKXNY6",
+    "collection_list_YqVBqL",
+    "custom_liquid_x9WMzJ"
   ]
 }

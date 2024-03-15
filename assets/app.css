@@ -13,10 +13,56 @@
   src: url("./Montserrat-Bold.ttf") format("truetype");
   font-weight: 700;
 }
+.utility-bar--bottom-border .utility-bar__grid {
+  max-width: unset;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+}
+.utility-bar--bottom-border .utility-bar__grid .announcement-bar__message {
+  color: #fff;
+  font-weight: 700;
+}
+.header-wrapper {
+  height: 120px;
+  background-color: rgba(78, 61, 61, 0.5882352941);
+  position: fixed;
+  top: 38px;
+}
+.header-wrapper .header {
+  margin-right: -10px;
+}
+.header-wrapper .header .header__inline-menu {
+  margin-left: 150px;
+}
+.header-wrapper .header .header__inline-menu .list-menu li {
+  margin-right: 70px;
+}
+.header-wrapper .header .header__inline-menu .list-menu li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header-wrapper .header .header__inline-menu .list-menu li a span {
+  color: #fff;
+  font-weight: 700;
+}
+.header-wrapper .header .header__icons {
+  margin-right: 100px;
+}
+.header-wrapper .header .header__icons .modal__toggle-open {
+  color: #fff;
+  font-weight: 700;
+}
+.header-wrapper .header .header__icons .cart-icon-bubble {
+  color: #fff;
+  font-weight: 700;
+}
 .banner__box {
   max-width: unset;
   width: 500px;
-  margin-right: 750px;
+  margin-right: -50px;
   margin-top: 120px;
 }
 .banner__box .banner__heading {
@@ -106,6 +152,48 @@
 .animate--fade-in img {
   background-position: center;
   background-size: contain;
+}
+.collection-list-wrapper .title-wrapper-with-link {
+  display: flex;
+  justify-content: center;
+}
+.collection-list-wrapper .slider-mobile-gutter .collection-list .collection-list__item .card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collection-list-wrapper .slider-mobile-gutter .collection-list .collection-list__item .card__content .cart__information {
+  margin-top: -50px;
+}
+.collection-list-wrapper .slider-mobile-gutter .collection-list .collection-list__item .card__content .cart__information a {
+  font-weight: 900;
+}
+.collection-list-wrapper .slider-mobile-gutter .collection-list .collection-list__item .card__content:hover {
+  background-color: rgba(0, 0, 0, 0.699);
+}
+.collection-list-wrapper .slider-mobile-gutter .collection-list .collection-list__item .card__content:hover a {
+  color: #fff;
+}
+.box-text1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box-text1 .box1-1 {
+  width: 50%;
+}
+.box-text1 .box1-1 h3 {
+  font-size: 28px;
+  color: black;
+  font-weight: 800;
+}
+.box-text1 .box1-1 p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.box-text1 .box1-1 p a {
+  text-decoration: none;
+  color: #b71726;
 }
 .footer {
   background-color: #303030;
