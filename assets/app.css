@@ -1,15 +1,15 @@
 @font-face {
-  font-family: "Poppins-Regular";
+  font-family: "Montserrat-Regular";
   src: url("./Montserrat-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 @font-face {
-  font-family: "Poppins-Regular";
+  font-family: "Montserrat-Regular";
   src: url("./Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 @font-face {
-  font-family: "Poppins-Regular";
+  font-family: "Montserrat-Regular";
   src: url("./Montserrat-Bold.ttf") format("truetype");
   font-weight: 700;
 }
@@ -55,7 +55,7 @@
   color: #fff;
   font-weight: 700;
 }
-.header-wrapper .header .header__icons .cart-icon-bubble {
+.header-wrapper .header .header__icons .icon-cart-empty {
   color: #fff;
   font-weight: 700;
 }
@@ -218,6 +218,20 @@
   text-decoration: none;
   font-size: 12px;
 }
+.footer .footer__payment {
+  border: 1px solid rgb(181, 181, 181);
+  padding: 20px;
+}
+#app .sooyq {
+  grid-area: unset;
+  grid-template-areas: unset;
+  grid-template-columns: unset;
+  display: flex;
+  justify-content: space-between;
+}
+.QT4by {
+  background-color: black;
+}
 .shopify-section .banner .banner__box {
   background-color: transparent;
 }
@@ -256,6 +270,6 @@
 }
 body {
   margin: 0;
-  font-family: "Poppins-Regular";
+  font-family: "Montserrat-Regular";
   font-weight: 400;
 }

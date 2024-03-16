@@ -6,25 +6,25 @@ $hover-button-color: #00c77a;
 //FONTS
 
 @font-face {
-    font-family: 'Poppins-Regular';
+    font-family: 'Montserrat-Regular';
     src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
-    font-family: 'Poppins-Regular';
+    font-family: 'Montserrat-Regular';
     src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
     font-weight: 500;
   }
 
   @font-face {
-    font-family: 'Poppins-Regular';
+    font-family: 'Montserrat-Regular';
     src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
     font-weight: 700;
   }
 
-  $regular-font: 'Poppins-Regular';
-  $medium-font: 'Poppins-Medim';
-  $bold-font: 'Poppins-Bold';
+  $regular-font: 'Montserrat-Regular';
+  $medium-font: 'Montserrat-Medim';
+  $bold-font: 'Montserrat-Bold';
 
 
