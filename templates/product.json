@@ -1,5 +1,14 @@
 {
   "sections": {
+    "custom_liquid_XYVCGE": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class =\"space\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -23,7 +32,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
         },
@@ -94,10 +103,60 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "image_banner_Y4cP7V": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_TUbAAg": {
+          "type": "heading",
+          "settings": {
+            "heading": "PROVA CYKELN INNAN DU KÖPER",
+            "heading_size": "h1"
+          }
+        },
+        "text_AGWt4c": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_EFmicz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "besök oss",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TUbAAg",
+        "text_AGWt4c",
+        "buttons_EFmicz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Skarmbild_2024-03-16_230754.png",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
+    "custom_liquid_XYVCGE",
     "main",
-    "related-products"
+    "related-products",
+    "image_banner_Y4cP7V"
   ]
 }

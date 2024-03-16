@@ -186,9 +186,9 @@
                 </p>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
-                  <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                  {% comment %} <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
-                  </div>
+                  </div> {% endcomment %}
                 {%- endif -%}
               {%- when 'sku' -%}
                 <p
@@ -772,6 +772,9 @@
     </script>
   </div>
 </section>
+ <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+    {{ product.description }}
+  </div>
 
 {% schema %}
 {
