@@ -17,13 +17,13 @@
             &:before {
               content: '';
               background-image: url('../img/cart-icon.png');
-              width: 20px; /* Adjust as needed */
-              height: 20px; /* Adjust as needed */
-              background-size: contain; /* Maintain aspect ratio */
+              width: 20px;
+              height: 20px;
+              background-size: contain;
               display: inline-block;
               margin-right: 5px;
               position: absolute;
-              left: -25px; /* Adjust as needed */
+              left: -25px;
               top: 35%;
               transform: translateY(-50%);
             }
