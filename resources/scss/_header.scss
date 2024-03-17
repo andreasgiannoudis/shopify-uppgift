@@ -1,0 +1,24 @@
+#cart-container{
+    width: 240px !important;
+    background-color: transparent;
+    
+    margin-top: -140px;
+    margin-left: 1110px;
+    
+    #cart-products{
+        background-color: #fff;
+        padding-left: 5px;
+    }
+    #checkout-button{
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: green;
+        color: #fff;
+        &:hover{
+            background-color: $hover-button-color;
+        }
+    }
+}

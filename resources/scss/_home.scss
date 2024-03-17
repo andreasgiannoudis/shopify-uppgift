@@ -29,6 +29,7 @@
         .header__inline-menu{
             margin-left: 150px;
             .list-menu{
+                margin-left: -100px;
                 li{
                     margin-right: 70px;
                     a{
@@ -49,6 +50,8 @@
         }
         .header__icons{
             margin-right:100px;
+           
+            
             .modal__toggle-open{
                 color: #fff;
                 font-weight: 700;
@@ -125,7 +128,7 @@
                     text-decoration: none;
                     font-weight: bold;
                     color: #fff;
-                    font-size: 32px;
+                    font-size: 26px;
                     background-color: rgba(0, 0, 0, 0.5); 
                     z-index: 1; 
                     width: 100%;

@@ -336,8 +336,27 @@
           </div>
         {%- endif -%}
       </a> {% endcomment %}
+      
     </div>
+    
   </header>
+  
+  <div id="cart-container">
+    <div id="cart-products">
+        {%- if cart.item_count > 0 -%}
+            <!-- Här kommer produkterna i varukorgen att visas dynamiskt -->
+        {%- endif -%}
+    </div>
+    {% if cart.item_count > 0 %}
+        <button id="checkout-button">Visa kassan</button>
+    {% endif %}
+</div>
+
+  
+  
+
+
+
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
 {%- if settings.cart_type == "notification" -%}
