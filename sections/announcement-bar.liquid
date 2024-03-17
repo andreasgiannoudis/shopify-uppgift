@@ -41,11 +41,12 @@
             >
           {%- endif -%}
           <p class="announcement-bar__message h5">
-            <span>{{ section.blocks.first.settings.text | escape }}</span>
-            {%- if section.blocks.first.settings.link != blank -%}
-              {% render 'icon-arrow' %}
-            {%- endif -%}
+            <a href="#">Om oss</a>
+            <a href="#">Köpvillkor</a>
+            <a href="#">Kontakt</a>
+            <a href="/cart" class="cart-link">Till kassan</a>
           </p>
+          
           {%- if section.blocks.first.settings.link != blank -%}
             </a>
           {%- endif -%}

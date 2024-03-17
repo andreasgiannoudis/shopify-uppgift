@@ -1,0 +1,35 @@
+.page-width {
+    .announcement-bar {
+      justify-content: flex-end; /* Adjust as needed */
+      width: 93%;
+      
+      .announcement-bar__message {
+        a {
+          margin-right: 35px;
+          text-decoration: none;
+          color: white;
+          font-weight: 400;
+          text-transform: uppercase;
+          
+          &.cart-link {
+            position: relative;
+  
+            &:before {
+              content: '';
+              background-image: url('../img/cart-icon.png');
+              width: 20px; /* Adjust as needed */
+              height: 20px; /* Adjust as needed */
+              background-size: contain; /* Maintain aspect ratio */
+              display: inline-block;
+              margin-right: 5px;
+              position: absolute;
+              left: -25px; /* Adjust as needed */
+              top: 35%;
+              transform: translateY(-50%);
+            }
+          }
+        }
+      }
+    }
+  }
+  
