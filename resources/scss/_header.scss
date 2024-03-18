@@ -22,3 +22,36 @@
         }
     }
 }
+
+.header-wrapper{
+    .header{
+        .header__inline-menu{
+            li{
+
+            }
+            .list-menu{
+                li{
+                    a{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+summary.list-menu__item{
+    color: white;
+    font-family: $regular-font;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover, &:focus, &:active{
+        color: white;
+    }
+}
+
+.mega-menu__content{
+    width: 20%;
+  margin: auto;
+}

@@ -32,3 +32,13 @@
         padding: 20px;
     }
 }
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    .footer-block__details-content{
+        p{
+            margin-bottom: -25px;
+        }
+    }
+  }

@@ -1,6 +1,6 @@
 .page-width {
     .announcement-bar {
-      justify-content: flex-end; /* Adjust as needed */
+      justify-content: flex-end;
       width: 93%;
       
       .announcement-bar__message {
@@ -33,3 +33,18 @@
     }
   }
   
+
+  @media only screen and (min-width: 375px) and (max-width: 768px) {
+    .page-width {
+      .announcement-bar {
+        width: 80%;
+        justify-content: start;
+        .announcement-bar__message{
+          font-size: 12px;
+          a{
+            margin-right: 25px;
+          }
+        }
+      }
+    }
+  }
