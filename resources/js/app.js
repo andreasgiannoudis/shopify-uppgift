@@ -113,17 +113,17 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// document.addEventListener('DOMContentLoaded', function() {
-//     var submitButton = document.getElementById('ProductSubmitButton-template--15371227955302__main');
-//     if (submitButton) {
-//         submitButton.addEventListener('click', function() {
+document.addEventListener('DOMContentLoaded', function() {
+    var submitButton = document.getElementById('ProductSubmitButton-template--15371227955302__main');
+    if (submitButton) {
+        submitButton.addEventListener('click', function() {
             
-//             setTimeout(function() {
-//                 window.location.reload();
-//             }, 1000); 
-//         });
-//     }
-// });  
+            setTimeout(function() {
+                window.location.reload();
+            }, 1000); 
+        });
+    }
+});  
 
 document.addEventListener('DOMContentLoaded', function() {
     var submitButton = document.getElementById('ProductSubmitButton-template--15371227955302__main');
