@@ -202,10 +202,10 @@
   color: #b71726;
 }
 #cart-container {
-  width: 240px !important;
+  width: 210px !important;
   background-color: transparent;
   margin-top: -140px;
-  margin-left: 1110px;
+  margin-left: 1130px;
 }
 #cart-container #cart-products {
   background-color: #fff;
@@ -222,6 +222,20 @@
 #cart-container #checkout-button:hover {
   background-color: #00c77a;
 }
+#cart-container #hide-cart-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+  margin-top: -60px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+#cart-container #hide-cart-button:hover {
+  transform: scale(1.2);
+  font-weight: bold;
+}
 .header-wrapper .header .header__inline-menu .list-menu li a {
   color: black;
 }
@@ -237,6 +251,11 @@ summary.list-menu__item:hover, summary.list-menu__item:focus, summary.list-menu_
 .mega-menu__content {
   width: 20%;
   margin: auto;
+}
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .box1-1 {
+    width: 90%;
+  }
 }
 .footer {
   background-color: #303030;
@@ -269,6 +288,18 @@ summary.list-menu__item:hover, summary.list-menu__item:focus, summary.list-menu_
   .footer-block__details-content p {
     margin-bottom: -25px;
   }
+}
+.sooyq ._1fragemk0 {
+  width: 100%;
+}
+.sooyq ._1fragemk0 .ETRXz {
+  width: unset;
+  width: 100%;
+}
+.sooyq ._1fragemk2 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 div#app .g9gqqf1 ._1fragemjt .f1jux .JPw09 .k1Dlb ._1ip0g651 ._1fragemir .n8k95w1 {
   background-color: black !important;

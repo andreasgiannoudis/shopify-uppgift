@@ -91,6 +91,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });  
 
 document.addEventListener('DOMContentLoaded', function() {
+    var hideCartButton = document.getElementById('hide-cart-button');
+
+    if (hideCartButton) {
+        hideCartButton.addEventListener('click', function() {
+            var cartContainer = document.getElementById('cart-container');
+            cartContainer.style.display = 'none';
+        });
+    }
     var submitButton = document.getElementById('ProductSubmitButton-template--15371227955302__main');
     var tertiaryButton = document.querySelector('.button--tertiary');
 

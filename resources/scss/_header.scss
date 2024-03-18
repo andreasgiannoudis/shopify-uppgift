@@ -1,9 +1,9 @@
 #cart-container{
-    width: 240px !important;
+    width: 210px !important;
     background-color: transparent;
     
     margin-top: -140px;
-    margin-left: 1110px;
+    margin-left: 1130px;
     
     #cart-products{
         background-color: #fff;
@@ -19,6 +19,20 @@
         color: #fff;
         &:hover{
             background-color: $hover-button-color;
+        }
+    }
+    #hide-cart-button{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: red;
+        border: none;
+        margin-top: -60px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: scale(1.2);
+            font-weight: bold;
         }
     }
 }
@@ -54,4 +68,12 @@ summary.list-menu__item{
 .mega-menu__content{
     width: 20%;
   margin: auto;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    .box1-1{
+        width: 90%;
+    }
+    
 }

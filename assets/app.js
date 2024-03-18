@@ -1,8 +1,3 @@
-window.onload = function() {
-  if (window.location.href.indexOf("/checkouts") > -1) {
-    alert("HELLO");
-  }
-};
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("cart-container");
   var cartProductsDiv = document.getElementById("cart-products");
@@ -38,6 +33,23 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 document.addEventListener("DOMContentLoaded", function() {
+  var submitButton = document.getElementById("ProductSubmitButton-template--15371227955302__main");
+  if (submitButton) {
+    submitButton.addEventListener("click", function() {
+      setTimeout(function() {
+        window.location.reload();
+      }, 1e3);
+    });
+  }
+});
+document.addEventListener("DOMContentLoaded", function() {
+  var hideCartButton = document.getElementById("hide-cart-button");
+  if (hideCartButton) {
+    hideCartButton.addEventListener("click", function() {
+      var cartContainer = document.getElementById("cart-container");
+      cartContainer.style.display = "none";
+    });
+  }
   var submitButton = document.getElementById("ProductSubmitButton-template--15371227955302__main");
   var tertiaryButton = document.querySelector(".button--tertiary");
   if (submitButton) {
