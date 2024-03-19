@@ -201,6 +201,24 @@
   text-decoration: none;
   color: #b71726;
 }
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .gradient .box-text1 .box1-1 {
+    width: 90%;
+  }
+  .gradient .box {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-left: 15px;
+  }
+  .gradient .box .box1,
+  .gradient .box .box2,
+  .gradient .box .box3,
+  .gradient .box .box4 {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
 #cart-container {
   width: 210px !important;
   background-color: transparent;
@@ -253,8 +271,10 @@ summary.list-menu__item:hover, summary.list-menu__item:focus, summary.list-menu_
   margin: auto;
 }
 @media only screen and (min-width: 375px) and (max-width: 768px) {
-  .box1-1 {
-    width: 90%;
+  .menu-drawer__menu .menu-drawer__menu-item {
+    color: #303030;
+    font-weight: 400;
+    text-transform: none;
   }
 }
 .footer {
@@ -568,14 +588,14 @@ div#app .sooyq {
 }
 @media only screen and (min-width: 375px) and (max-width: 768px) {
   .page-width .announcement-bar {
-    width: 80%;
+    width: 100%;
     justify-content: start;
   }
   .page-width .announcement-bar .announcement-bar__message {
-    font-size: 12px;
+    font-size: 10px;
   }
   .page-width .announcement-bar .announcement-bar__message a {
-    margin-right: 25px;
+    margin-right: 30px;
   }
 }
 body {

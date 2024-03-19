@@ -72,8 +72,12 @@ summary.list-menu__item{
 
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
-    .box1-1{
-        width: 90%;
+    .menu-drawer__menu{
+        .menu-drawer__menu-item{
+            color: $dark-color;
+            font-weight: 400;
+            text-transform: none;
+        }
     }
     
 }

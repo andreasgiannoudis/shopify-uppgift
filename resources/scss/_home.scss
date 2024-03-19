@@ -277,3 +277,29 @@
     }
 
 }
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    .gradient{
+        .box-text1{
+            .box1-1{
+                width: 90%;
+            }
+        }
+
+        .box{
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 90%;
+            margin-left: 15px;
+            .box1,
+            .box2,
+            .box3,
+            .box4{
+                width: 90%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
+}
