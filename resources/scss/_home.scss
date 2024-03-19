@@ -301,5 +301,16 @@
             }
         }
     }
+    #Details-menu-drawer-menu-item-2{
+        .menu-drawer__menu-item{
+            color: $dark-color;
+
+        }
+        
+        :active{
+            color: $dark-color;
+
+        }
+    }
     
 }
