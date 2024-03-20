@@ -23,6 +23,8 @@
                     font-size: 12px;
                 }
             }
+
+            
         }
         
     }
@@ -33,12 +35,22 @@
     }
 }
 
+.footer-block:nth-child(-n+3) .list-social {
+    display: none;
+  }
+
+  .footer-block__details-content{
+    float: left;
+  }
+
 
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
     .footer-block__details-content{
+        float: unset;
         p{
             margin-bottom: -25px;
         }
+        
     }
   }

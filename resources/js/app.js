@@ -1,3 +1,5 @@
+import "./popup";
+
 document.addEventListener('DOMContentLoaded', function() {
     var cartContainer = document.getElementById('cart-container');
     var cartProductsDiv = document.getElementById('cart-products');

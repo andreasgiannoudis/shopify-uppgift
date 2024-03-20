@@ -280,11 +280,22 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <script>
+      // Get the end time of the discount and store it in a JavaScript variable
+      var discountEndTime = "{{ discount.ends_at | date: '%Y-%m-%dT00:00:00' }}";
+      console.log(discountEndTime);
+    </script>
     <link href="{{ 'app.css' | asset_url }}" rel="stylesheet" type="text/css" media="all">
     <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+    
+    <div id="popup-content" class="popup-content" style="display: none;">
+      <p>Få 10% rabatt på din första beställning! Använd koden HEJ10 i kassan.</p>
+      <button id="close-button" class="close-button">X</button>
+    </div>
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
