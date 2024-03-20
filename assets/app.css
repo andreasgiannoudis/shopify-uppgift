@@ -201,6 +201,10 @@
   text-decoration: none;
   color: #b71726;
 }
+#MainContent {
+  margin-top: unset;
+  margin-top: 160px;
+}
 @media only screen and (min-width: 375px) and (max-width: 768px) {
   .gradient .box-text1 .box1-1 {
     width: 90%;
@@ -223,6 +227,45 @@
   }
   #Details-menu-drawer-menu-item-2 :active {
     color: #303030;
+  }
+  .banner__box {
+    margin: 0;
+    padding: 0;
+  }
+  .banner__heading {
+    color: unset !important;
+    color: #313131;
+  }
+  .inline-richtext {
+    font-size: unset !important;
+    font-size: 36px;
+  }
+  #MainContent {
+    margin-top: unset;
+    margin-top: 160px;
+  }
+  #menu-drawer {
+    background: rgba(255, 255, 255, 0.19);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.8px);
+    -webkit-backdrop-filter: blur(14.8px);
+    border: 1px solid rgba(255, 255, 255, 0.44);
+  }
+  .menu-drawer__inner-submenu {
+    background: rgba(255, 255, 255, 0.19);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.8px);
+    -webkit-backdrop-filter: blur(14.8px);
+    border: 1px solid rgba(255, 255, 255, 0.44);
+  }
+  .menu-drawer__menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-drawer__menu li a {
+    font-weight: bolder;
+    color: #000;
   }
 }
 .popup-content {
