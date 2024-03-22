@@ -75,14 +75,17 @@ summary.list-menu__item{
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
     .menu-drawer__menu{
+        li{
+            a{
+                color: #fff;
+            }
+        }
         .menu-drawer__menu-item{
             color: $dark-color;
             font-weight: 400;
             text-transform: none;
         }
     }
-    .header-localization{
-        margin: 0;
-    }
+    
     
 }

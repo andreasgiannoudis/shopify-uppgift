@@ -317,7 +317,8 @@
     
     }
     .product__description{
-        display: none;
+        width: 100%;
+        
         .box-des{
             display: flex;
             flex-direction: column-reverse;
@@ -325,18 +326,32 @@
             width: 100%;
             .box-des1{
                 width: unset;
+                width: 80%;
+                margin-left: 10%;
             }
             .box-des2{
                 width: unset;
+                width: 80%;
+                margin-left: 10%;
             }
     
         }
     }
-    .header-localization{
-        margin: 0;
+    .icons--localization{
+        margin: 0 !important;
     }
-    
+    .menu-drawer__menu .menu-drawer__menu-item{
+    color: #fff !important;
+   }
+   
+  .header__icon--menu .icon{
+    color: white;
 
+  }
+  .space{
+    display: none;
+  }
+   
 
 
 

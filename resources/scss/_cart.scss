@@ -197,4 +197,15 @@ cart-items{
     .kqsiVA9Jf8LJAbxw8Bau{
         margin-bottom: 50px;
     }
+
+    .header-localization{
+        margin:unset !important;
+        margin: 0;
+    }
+    .icon-hamburger{
+        color: #fff;
+        &::before{
+            color: #fff;
+        }
+    }
 }
