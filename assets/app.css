@@ -348,6 +348,9 @@ summary.list-menu__item:hover, summary.list-menu__item:focus, summary.list-menu_
     font-weight: 400;
     text-transform: none;
   }
+  .header-localization {
+    margin: 0;
+  }
 }
 .footer {
   background-color: #303030;
@@ -432,7 +435,7 @@ cart-items .page-width {
   margin-right: -920px;
   margin-top: -329px;
   height: unset;
-  height: 260px !important;
+  height: 280px !important;
 }
 .cart__footer-wrapper .page-width .cart__blocks .totals > * {
   font-size: 22px;
@@ -522,6 +525,9 @@ cart-items .page-width {
   }
   #cart {
     width: 100%;
+  }
+  .kqsiVA9Jf8LJAbxw8Bau {
+    margin-bottom: 50px;
   }
 }
 div#app .g9gqqf1 ._1fragemjt .f1jux .JPw09 .k1Dlb ._1ip0g651 ._1fragemir .n8k95w1 {
@@ -761,6 +767,52 @@ div#app .sooyq {
 .product__description .box-des .box-des2 p:nth-child(9) .span-des4 {
   padding-left: 50px;
   padding-right: 10px;
+}
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .product--large {
+    margin: 0;
+    padding: 0;
+  }
+  .page-width .product .product__media-wrapper .product__column-sticky {
+    width: unset;
+  }
+  .page-width .product .product__info-wrapper {
+    margin: 0;
+  }
+  .page-width .product .product__info-wrapper .product__info-container .no-js-hidden {
+    display: unset;
+  }
+  .page-width .product .product__info-wrapper .product__info-container .no-js-hidden div {
+    width: unset;
+    margin: 0;
+  }
+  .page-width .product .product__info-wrapper .product__info-container .no-js-hidden div .selected {
+    border-radius: 10px;
+  }
+  .page-width .product .product__info-wrapper .product__info-container .no-js-hidden > div:nth-child(2) {
+    margin: 0;
+  }
+  .page-width .product .product__info-wrapper .product__info-container .product-form__quantity label {
+    display: none;
+  }
+  .product__description {
+    display: none;
+  }
+  .product__description .box-des {
+    display: flex;
+    flex-direction: column-reverse;
+    width: unset;
+    width: 100%;
+  }
+  .product__description .box-des .box-des1 {
+    width: unset;
+  }
+  .product__description .box-des .box-des2 {
+    width: unset;
+  }
+  .header-localization {
+    margin: 0;
+  }
 }
 .page-width .announcement-bar {
   justify-content: flex-end;
