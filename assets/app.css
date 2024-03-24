@@ -836,6 +836,9 @@ div#app .sooyq {
   .space {
     display: none;
   }
+  .product__tax {
+    display: none;
+  }
 }
 .page-width .announcement-bar {
   justify-content: flex-end;
