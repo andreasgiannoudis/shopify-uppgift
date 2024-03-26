@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 document.addEventListener("DOMContentLoaded", function() {
-  var submitButton = document.getElementById("ProductSubmitButton-template--15371227955302__main");
+  var submitButton = document.querySelector(".product-form__submit");
   if (submitButton) {
     submitButton.addEventListener("click", function() {
       setTimeout(function() {
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
       cartContainer.style.display = "none";
     });
   }
-  var submitButton = document.getElementById("ProductSubmitButton-template--15371227955302__main");
+  var submitButton = document.querySelector(".product-form__submit");
   var tertiaryButton = document.querySelector(".button--tertiary");
   if (submitButton) {
     submitButton.addEventListener("click", reloadPageAfterDelay);
